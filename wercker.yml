@@ -44,3 +44,4 @@ deploy:
             input: dist
             replace: $RELEASE_IS_DRAFT
             pre-release: $RELEASE_IS_DRAFT
+            commit: $WERCKER_GIT_COMMIT
